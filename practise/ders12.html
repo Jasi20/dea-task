@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <style>
+        body{
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            max-width: 1200px;
+            margin: auto;
+        }
+        @media (max-width:1100px){
+            .container{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width:800px){
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width:500px){
+            .container{
+                grid-template-columns: repeat( 1fr);
+            }
+        }
+        .product{
+            border: 1px solid black;
+            padding: 15px;
+            border-radius:10px;
+            text-align: center;
+            margin: 10px;
+            transition: transform 1s;
+        }
+        .product:hover{
+            transform: scale(1.05);
+        }
+        .product img{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+     </style>
+</head>
+<body>
+
+<div class="container">
+        <div class="product">
+    
+        <img src="https://images.unsplash.com/photo-1706469980834-36cc556c02c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2Ftc3VuZyUyMHMyNHxlbnwwfHwwfHx8MA%3D%3D">
+    
+        <h2>Samsung S24</h2>
+        <p class="price">3000</p>
+        <button>Add to cart</button>
+    </div>
+    
+    <div class="product">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUqaTQEW07oDjeFyvz6qZ0Ssb49C0jtxJX6A&s">
+        
+        <h2>Iphone 13 Pro Max</h2>
+        <p class="price">4000</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+
+        <img src="https://images.unsplash.com/photo-1698512475067-74ed7c956c8d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXN1cyUyMHR1ZnxlbnwwfHwwfHx8MA%3D%3D">
+
+        <h2>Asus Tuf Gaming F15</h2>
+        <p class="price">4500</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1589561084283-930aa7b1ce50?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SFAlMjB2aWN0dXN8ZW58MHx8MHx8fDA%3D">
+        <h2>HP  Victus</h2>
+        <p class="price">5000</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqj4a7g6PF4_v77ZSKD_ioRbUUsYpeHOebCQ&s">
+        <h2>HP Omen</h2>
+        <p class="price">4500</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNh6TmN911dvHIe3etjBGHPMupOQLhVjlr2Q&s">
+        <h2>Xbox Series X</h2>
+        <p class="price">4500</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYwYpr-XUUuHY4lE-v30_TRx1Iiqh7gJ4Xuw&s">
+        <h2>P9 Pro Max</h2>
+        <p class="price">4500</p>        
+
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vAdkkHddhQiGb80X_KkU3nsW8z5xFmFxYA&s">
+        <h2>Casper Excalibur G900</h2>
+        <p class="price">4500</p>
+        <button>Add to cart</button>
+    </div>
+    <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vAdkkHddhQiGb80X_KkU3nsW8z5xFmFxYA&s">
+        <h2></h2>
+        <p class="price">4500</p>
+        <button>Add to cart</button>
+    </div>
+</div>
+</body>
+</html>
