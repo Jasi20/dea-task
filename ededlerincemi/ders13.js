@@ -15,3 +15,4 @@ function addNumbers(arr) {
 let array = [23, 456, 765];
 let yeniArray = addNumbers(array);
 console.log(yeniArray);
+
