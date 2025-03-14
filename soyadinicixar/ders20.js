@@ -1,6 +1,5 @@
-function soyadiAl() {
-    let adSoyad = prompt("Zəhmət olmasa, ad və soyadınızı daxil edin:").trim(); 
-    let soyad = adSoyad.split(" ").pop(); 
+function soyadiAl(adSoyad) {
+    let soyad = adSoyad.trim().split(" ").pop(); 
     console.log(`Sizin soyadınız: ${soyad}`);
 }
-soyadiAl();
+soyadiAl("      Jasmin Ceferova      ");;
