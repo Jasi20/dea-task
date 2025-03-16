@@ -1,5 +1,5 @@
 // function replaceVowels(text) {
-//     return text.replace(/[aeiouəüöıAEIOUƏÜÖI]/g, '*');
+//     return text.replace(/[a,e,i,o,u,ə,ü,ö,ı]/g, '*');
 // }
 
 // let sentence = "Mən proqramlaşdırmanı sevirəm.";
